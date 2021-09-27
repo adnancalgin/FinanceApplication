@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/aciklama"
+        android:text="1-)YÜKSELEN TREND KANALLARI"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#FF9800"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/trendkanal"
+        android:layout_width="700dp"
+        android:layout_height="320dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/tupras"/>
+
+
+    <TextView
+        android:id="@+id/trend"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_below="@+id/trendkanal"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="Trend kanalları yatırım yaptığınız varlığın fiyat dalgalanmalarından faydalanmaktadır. Fiyat diplerinden çekilen kanal çizgisi ile bulunur.
+        Yukarıdaki örnekte Tüpraş Hissesinin 1 numaralı (13TL) tepki bölgesi ile başlayan ve 6 numaralı (41TL) trend kırılımı son bulan trend tam olarak 2 sene sürmüş ve yatırımcısına %310 gibi inanılmaz bir kar oranı sağlamıştır."
+        />
+
+    <ImageView
+        android:id="@+id/mainpage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="570dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/circle"
+        ></ImageView>
+
+
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="275dp"
+        android:src="@drawable/rightarrow">
+    </ImageView>
+
+
+</RelativeLayout>

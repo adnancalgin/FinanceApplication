@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF9800"
+        android:text="Yatırım ve Trading Platformuna Hoşgeldiniz!
+         Stratejileri görmek için üstüne tıklamanız yeterli" />
+
+    <ImageView
+        android:id="@+id/uzunvade"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="0dp"
+        app:srcCompat="@drawable/uzunvadepic"
+        />
+
+    <ImageView
+        android:id="@+id/kısavade"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@+id/uzunvade"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="0dp"
+        app:srcCompat="@drawable/kisavade"
+        />
+
+
+    <ImageView
+        android:id="@+id/kitaplar"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/kısavade"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="0dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/kitap"
+         />
+
+    <ImageView
+        android:id="@+id/analyse"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/kitaplar"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="0dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/temel"
+        />
+
+
+
+</RelativeLayout>

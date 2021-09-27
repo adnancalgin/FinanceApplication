@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/aciklama"
+        android:text="FK ORANI"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/book1"
+        android:layout_width="700dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/fk"/>
+
+    <TextView
+        android:id="@+id/ortalama_acıklama"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginTop="350dp"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="Fiyat Kazanç oranı hisse senedi yatırımı yaparken dikkat edilmesi ve üzerine düşülmesi gereken bir konudur. Şirketin 1 senede elde ettiği kar oranları ile kendisini kaç yılda amorti ettiğini gösterir. Piyasa değeri 40 milyon olan ve yıllık 10 milyon kar eden bir şirketin fk sı 4 olacaktır, kısaca kendini 4 yılda amorti etmesi beklenir. Fk arasştırması yaparken sektörel bazlı fk'ları ve tabiki gelecekteki karları düşünmek gerekmektedir.  "
+        />
+
+    <ImageView
+        android:id="@+id/mainpage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="570dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/circle"
+        ></ImageView>
+
+    <ImageView
+        android:id="@+id/next"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginLeft="275dp"
+        android:src="@drawable/rightarrow">
+    </ImageView>
+
+</RelativeLayout>

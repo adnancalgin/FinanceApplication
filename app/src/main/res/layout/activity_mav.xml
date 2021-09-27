@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/aciklama"
+        android:text="ÜSSEL HAREKETLİ ORTALAMALAR"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#FF9800"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/usselortalama"
+        android:layout_width="700dp"
+        android:layout_height="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/aselsan"/>
+
+
+    <TextView
+        android:id="@+id/ortalama_acıklama"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_below="@+id/usselortalama"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text=" En önemli ortalamalar 50 günlük ve 200 günlük ortalamalardır. Son 50 günlük alıcı iştahını ve son 200 günlük ortalama satıcı iştahını ifade eder. 50 günlük (Yeşil) 200 Günlük (Kırmızı) ortalamayı yukarı kesmesi hissedeki trendin yukarı yönlü olacagını gösterirken aşağısı kesmesi satıcıların geldiğini belirtir.2 ocak 2020 tarihinde 50 günlük ortalama 200 günlük ortalamayı yukarı kesmiştir ve o günden 23 mart 2021 tarihine kadar aselsan yatırımcılarına %70 lik bir kar bırakmıştır "
+        />
+    <ImageView
+        android:id="@+id/mainpage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="570dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/circle"
+        ></ImageView>
+
+
+
+</RelativeLayout>

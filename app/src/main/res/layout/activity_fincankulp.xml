@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/aciklama"
+        android:text="1-)FİNCAN KULP FORMASYONU"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#FF9800"
+        android:layout_marginTop="25dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/fincankulp"
+        android:layout_width="700dp"
+        android:layout_height="320dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/fincankulp"/>
+
+
+    <TextView
+        android:id="@+id/trend"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_below="@+id/fincankulp"
+        android:textColor="#212121"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        android:text="Orta vade alım satım için kullanılan ve oldukça popüler olan bir formasyon ise Fincan-Kulp'tur. İsmini Adeta bir fincan ve bir kulp görünümüne benzediği için almıştır, grafikler üzerinde keşfedilmesi oldukça kolay bir analizdir. Fincan boynunun üzerinde fincanın derinliği kadar yükseliş beklenir. Örnekte Özak Gayrimenkul Hissesinde formasyon sonucu yaklaşık 2 aylık bir süre zarfında %20 lik bir kar bırakmıştır"
+        />
+
+    <ImageView
+        android:id="@+id/mainpage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="585dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/circle"
+        ></ImageView>
+
+
+
+
+</RelativeLayout>
